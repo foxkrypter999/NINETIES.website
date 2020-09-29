@@ -1,0 +1,219 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background: #222222;
+    text-align: justify;
+}
+
+a:link, a:active, a:visited{
+    color: #f8b822;
+    text-decoration: none;
+}
+a:link, a:active, a:visited:hover{
+    color: #f0332c;
+}
+/* grid 960px  então 960 / 12 col = 80px , 60px para o texto e 20px para espaço entre elas*/
+
+.linha{
+    width: 960px;
+    margin: 0 auto; /* auto para centralizar */
+    overflow: auto; /* gerecia o conteúdo que fica fora das linhas para ficar alinhado com o site*/
+    padding: 5px 0;
+}
+
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+
+.col1{
+    width: 60px;
+}
+
+.col2{
+    width: 140px;
+}
+
+.col3{
+    width: 220px;
+}
+
+.col4{
+    width: 300px;
+}
+
+.col5{
+    width: 380px;
+}
+
+.col6{
+    width: 460px;
+}
+
+.col7{
+    width: 540px;
+}
+
+.col8{
+    width: 620px;
+}
+
+.col9{
+    width: 700px;
+}
+
+.col10{
+    width: 780px;
+}
+
+.col11{
+    width: 860px;
+}
+
+.col1{
+    width: 940px;
+}
+
+
+/* ESTILOS REUTILIZÁVEIS */
+.sem-padding{
+    padding: 0 !important;
+}
+.sem-margin{
+    margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 15px 0 10px 0;
+}
+
+ul li, ol li{
+    margin-bottom: 5px;
+}
+
+ul.inline li, ol.inline li{
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+ul.inline li:last-child, ol.inline li:last-child{
+    margin-right: 0;
+}
+
+ul.sem-marcador, ol.sem-marcador{
+    list-style: none;
+}
+
+a.botao, input.botao{
+    background-color: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 10px;
+    transition: background-color .3s ease, border .3s ease, color .3s ease, opacity .3s ease-in-out, outline .3s ease;
+    
+}
+
+a.botao:hover, input.botao:hover{
+    background: #fff;
+    color: black;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* LAYOUT DO SITE */
+
+.logo{
+    color: #f8b822;
+    font-family: 'New Rocker', 'Lato', sans-serif;
+    font-size: 50px;
+}
+
+.menu{
+    margin-top: 30px;
+}
+
+.header{
+    background: #000000;
+}
+
+.footer{
+    background: #000000;
+    padding: 20px 0;
+    text-align: center !important;
+}
+
+h2, h3, h4{
+    color: #f0332c;
+}
+
+ul.noticias li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+ul.noticias li img{
+    width: 70px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+ul.noticias li h4{
+    font-weight: 300;
+}
+
+ul.noticias li p a{
+    font-weight: 500;
+}
+
+ul.noticias li p{
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+.contato label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.contato input, .contato textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+
+.contato textarea{
+    height: 150px;
+}
+
+.contato input.botao{
+    width: auto;
+    cursor: pointer;
+}
+#enviando{
+    background: none !important;
+    display: block;
+}
+#enviando:hover{
+    background: white !important;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
